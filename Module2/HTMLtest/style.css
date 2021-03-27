@@ -1,0 +1,10 @@
+body {
+    background-color:darkgoldenrod;
+}
+p{
+border: solid blueviolet 5px;
+
+}
+#page {
+    border: solid black 10px;
+}
