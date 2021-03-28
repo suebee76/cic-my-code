@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    align-content: space-between;
+    font-family: sans-serif;
+
+}
+
+nav > div {
+    flex: 1;
+    border: 1px solid black;
+}
+
+
+#search {
+    text-align: right;
+    align-content: space-around;
+}
+
+#links {
+    text-align: center;
+    display:flex;
+}
+
+#links > p { 
+    flex: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#product-title {
+    text-align: right;
+    align-content: space-around;
+}
