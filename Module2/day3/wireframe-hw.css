@@ -31,3 +31,8 @@ nav > div {
     text-align: right;
     align-content: space-around;
 }
+
+#thumbs{
+    text-align: left;
+    display: flex;
+}
