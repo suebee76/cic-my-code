@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <h1>JS Playground</h1>
+        <h1 id="headingH1">JS Playground</h1>
     </header>
     <nav>
         <div>
@@ -25,11 +25,20 @@
             <a>contact</a>
         </div>
         <div class="search">
-            <input type="text" placeholder="search" />
-            <button type="submit">Submit</button>
+            <input type="text" placeholder="search" id="searchInput"/>
+            <button type="submit" onclick="searchFunction()">Submit</button>
         </div>
     </nav>
+    <main>
+        <img src="https://cdn.pixabay.com/photo/2016/08/11/23/55/trees-1587301__480.jpg"
+        class="redwoodImage"/>
+        <form id="redwoodQuestion">
+        <label for="redwoodInput">Do you like this photo?</label>
+        <input type="text" id="redwoodInput">
+        </form>
+    </main>
 
     
 </body>
+<script src="script.js"></script>
 </html>
