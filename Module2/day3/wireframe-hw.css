@@ -32,7 +32,9 @@ nav > div {
     align-content: space-around;
 }
 
-#thumbs{
+.thumbs {
     text-align: left;
-    display: ;
+    flex-direction: row;
+    align-content: flex-start;
+    
 }
