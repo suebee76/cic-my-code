@@ -1,3 +1,26 @@
-.mainContent{
-    padding: 40px;
+/*BASE*/
+.mainContent {
+  padding: 40px;
+}
+
+/*PRODUCT SECTION*/
+
+.thumbnailImg {
+  margin-top: 20px;
+}
+
+.quantity {
+  width: 30%;
+}
+
+.actionRow {
+  margin-top: 20px;
+}
+
+.cartBtn {
+  width: 50%;
+}
+
+.description {
+  margin-top: 20px;
 }
