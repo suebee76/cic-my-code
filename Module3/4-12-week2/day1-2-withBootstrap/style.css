@@ -25,6 +25,15 @@
   margin-top: 20px;
 }
 
+/*FOOTER*/
+
+footer {
+  padding: 20px;
+}
+
+.footerNav {
+  max-width: 80%;
+}
 /*SEARCH RESULTS*/
 
 .searchBtn {
